@@ -1555,31 +1555,3 @@ body {
   animation-play-state: paused !important;
 } /*# sourceMappingURL=main.css.map */
 
-.envelope {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100px;
-  height: 70px;
-  background-color: black;
-  z-index: 1;
-  transition: width 2s;
-}
-
-.seal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 20px;
-  height: 20px;
-  background-color: gold;
-  border-radius: 50%;
-}
-
-.message {
-  display: none;
-  text-align: center;
-  color: white;
-}
